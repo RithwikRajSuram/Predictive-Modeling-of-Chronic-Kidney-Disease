@@ -38,6 +38,14 @@ The dataset contains patient-level clinical records related to kidney disease. E
 - `ane` - Anemia
 - `classification` - CKD status
 
+## Considered Factors
+For this Random Forest model, the analysis focused on the following clinical features:
+
+- `bp` - Blood pressure  
+- `sc` - Serum creatinine  
+
+These two variables were used as the main input features for predicting whether a patient is classified as `ckd` or `notckd`.
+
 ## Tools and Libraries Used
 - Python
 - Pandas
